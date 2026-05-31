@@ -49,6 +49,7 @@ arxiv-dl-visualizer/
 ├── .gitignore                        # Prevents cluttering of datasets, charts, and cache
 ├── README.md                         # Documentation
 └── requirements.txt                  # Strict environment tracking layout
+```
 🚀 Key Engineering Core Features
 1. Complex Graph Topology Mining (NetworkX)
 Mathematical Nodes & Edges: Constructs massive structural co-authorship networks scanning thousands of relationships dynamically mapped from string representations of list structures.
@@ -110,9 +111,8 @@ Specialization: Artificial Intelligence, Data Analytics & Backend Machine Learni
 
 Focus: High-Performance Computing, Structural Data Pipeline Engineering & Applied Mathematical Modeling
 
-#### 🚀 Technical Alignment & Philosophy
-* **Data-First Engineering:** Strongly believe in building lightweight, high-throughput data architectures. Prioritize eliminating heavy frontend UI overhead frameworks (like Streamlit/Dash runtimes) in favor of fast, automated backend telemetry logging and native visual compilers.
-* **Academic & IP Rigor:** Deeply invested in working with complex graph theories, tensor operations, and structured deep learning pipelines that transform raw, unstructured text matrices into mathematically sound topological maps.
-* **Production-Ready Layouts:** Focused on strict environment sandboxing, dependency resolution tracking, and optimized resource utilities to deploy high-speed diagnostic execution routines.
+# 🚀 Technical Alignment & Philosophy
+* Data-First Engineering: Strongly believe in building lightweight, high-throughput data architectures. Prioritize eliminating heavy frontend UI overhead frameworks (like Streamlit/Dash runtimes) in favor of fast, automated backend telemetry logging and native visual compilers.
+* Academic & IP Rigor: Deeply invested in working with complex graph theories, tensor operations, and structured deep learning pipelines that transform raw, unstructured text matrices into mathematically sound topological maps.
+* Production-Ready Layouts: Focused on strict environment sandboxing, dependency resolution tracking, and optimized resource utilities to deploy high-speed diagnostic execution routines.
 
----
