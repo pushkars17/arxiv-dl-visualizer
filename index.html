@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArXiv DL Visualizer - Live Analytics Dashboard</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #0d1117; color: #c9d1d9; margin: 0; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        header { text-align: center; padding: 30px 0; border-bottom: 1px solid #21262d; margin-bottom: 40px; }
+        h1 { color: #58a6ff; margin: 0 0 10px 0; font-size: 2.3rem; }
+        p { color: #8b949e; margin: 0; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); gap: 30px; }
+        @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+        .card { background-color: #161b22; padding: 20px; border-radius: 10px; border: 1px solid #30363d; display: flex; flex-direction: column; }
+        .card h3 { margin: 0 0 15px 0; color: #f0f6fc; border-left: 4px solid #58a6ff; padding-left: 10px; }
+        .img-container { background-color: #ffffff; border-radius: 6px; padding: 5px; }
+        img { width: 100%; height: auto; border-radius: 4px; display: block; }
+        .full-width { grid-column: 1 / -1; }
+        .report-box { background-color: #090d16; padding: 20px; border-radius: 8px; font-family: monospace; color: #7ee787; border: 1px solid #30363d; height: 400px; overflow-y: scroll; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>arXiv DL Visualizer Dashboard</h1>
+            <p>Automated Multimodal Academic Intelligence Pipeline Metrics</p>
+        </header>
+        <div class="grid">
+            <div class="card"><h3>1. Network Density Plot</h3><div class="img-container"><img src="./logs/1_network_density_plot.png"></div></div>
+            <div class="card"><h3>2. Top Authors Hub (PageRank)</h3><div class="img-container"><img src="./logs/2_top_authors_hub.png"></div></div>
+            <div class="card"><h3>3. Temporal Domain Trends</h3><div class="img-container"><img src="./logs/3_temporal_trends.png"></div></div>
+            <div class="card"><h3>4. Text Vocabulary Load (TF-IDF)</h3><div class="img-container"><img src="./logs/4_text_vocabulary_load.png"></div></div>
+            <div class="card"><h3>5. Collaboration Heatmap</h3><div class="img-container"><img src="./logs/5_collaboration_heatmap.png"></div></div>
+            <div class="card"><h3>6. PyTorch Loss Convergence</h3><div class="img-container"><img src="./logs/6_dl_loss_convergence.png"></div></div>
+            <div class="card"><h3>7. Softmax Prediction Confidence</h3><div class="img-container"><img src="./logs/7_dl_confidence_density.png"></div></div>
+            <div class="card full-width" style="margin-top: 20px;">
+                <h3>📋 Executive Summary Report Log</h3>
+                <iframe src="./logs/executive_summary_report.txt" class="report-box" style="width: 100%; border: none;"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
