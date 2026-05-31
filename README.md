@@ -2,6 +2,14 @@
 
 An enterprise-grade, high-performance data engineering and analytics pipeline designed to extract structural insights from over 136,000 scientific research publications (186 MB corpus). This system bypasses standard visual dashboards to deliver an automated backend architecture that fuses **Complex Graph Theory Networks** with **Deep Learning Text Embedding Convergence** to map out academic evolution, collaboration networks, and semantic patterns.
 
+---
+
+## 🌐 Live Interactive Dashboard
+Instead of setting up heavy machine learning environments or downloading huge raw datasets locally, you can view the automated production analytics, diagnostic plots, and system telemetry live in one click:
+
+👉 **[Launch Live Visualizer Dashboard](https://pushkars17.github.io/arxiv-dl-visualizer/)**
+
+---
 ## 🏗️ System Architecture & Data Flow
 
 The backend operates as a modular engineering pipeline, segregating structural data cleaning, matrix tokenization, network topological mining, and neural network tensor backpropagation.
@@ -77,6 +85,19 @@ Navigate to the source directory and execute the main orchestration script:
 Bash
 cd src
 python visualizer_pipeline.py
+📊 Automated Visual Assets Output
+
+Upon successful execution, the machine learning and graph engine generates the following 7 diagnostic assets inside the `logs/` directory, which automatically update the live interface:
+
+| Asset Name | Description |
+| :--- | :--- |
+| `1_network_density_plot.png` | Visualizes scale-free academic node frequency densities across a log scale distribution matrix. |
+| `2_top_authors_hub.png` | Maps out the top 15 dominant researchers based on Google PageRank influence metrics. |
+| `3_temporal_trends.png` | Outlines historical line graphs tracing the evolution and shift of core machine learning fields. |
+| `4_text_vocabulary_load.png` | Displays a horizontal bar metric graphing the token weight loading across text feature abstractions. |
+| `5_collaboration_heatmap.png` | Illustrates structural cross-sectional collaboration density charts using proximity matrix fields. |
+| `6_dl_loss_convergence.png` | Plots the descending cross-entropy error metric mapping PyTorch optimization layers over iterations. |
+| `7_dl_confidence_density.png` | Uses Kernel Density Estimation (KDE) to plot the distribution of final target layer softmax prediction confidences. |
 📊 Automated Visual Assets Output
 Upon successful execution, the machine learning and graph engine generates the following 7 diagnostic assets inside the logs/ directory:
 
